@@ -1,6 +1,10 @@
 import g1 from '../assets/g1.svg'
 import g2 from '../assets/g2.svg'
 import g3 from '../assets/g3.svg'
+import g4 from '../assets/g4.svg'
+import g5 from '../assets/g5.svg'
+import g6 from '../assets/g6.svg'
+import g7 from '../assets/g7.svg'
 
 const Gettings = () => {
   const cards = [
@@ -20,30 +24,30 @@ const Gettings = () => {
       text: 'Differentiate yourself from competitors and craft a memorable brand that connects with your audience.',
     },
     {
-      image: g2,
+      image: g4,
       title: 'Cost-Effective Marketing:',
       text: 'Differentiate yourself from competitors and craft a memorable brand that connects with your audience.',
     },
     {
-      image: g2,
+      image: g5,
       title: 'Overcome Common SME Challenges:',
       text: 'Differentiate yourself from competitors and craft a memorable brand that connects with your audience.',
     },
     {
-      image: g2,
+      image: g6,
       title: 'Create Winning Campaigns',
       text: 'Differentiate yourself from competitors and craft a memorable brand that connects with your audience.',
     },
     {
-      image: g2,
+      image: g7,
       title: 'Master how to use community to win the market',
       text: 'Differentiate yourself from competitors and craft a memorable brand that connects with your audience.',
     },
   ]
 
   return (
-    <div className="w-full bg-[#F5F5F5] py-[96px] px-6 md:px-[80px]">
-      <h1 className="text-center font-raleway font-bold text-[28px] md:text-[36px] leading-[125%] text-[#001422] mb-12">
+    <div className="w-full bg-white md:bg-[#F5F5F5] py-[30px] md:py-[96px] px-6 md:px-[80px]">
+      <h1 className="text-center font-raleway font-bold text-[20px] md:text-[36px] leading-[125%] text-[#001422] mb-12">
         Here’s what you get from the book:
       </h1>
 
@@ -53,9 +57,9 @@ const Gettings = () => {
             key={index}
             className="p-6 rounded-md flex flex-col gap-4 font-raleway text-[#121212] shadow-sm"
           >
-            <img src={card.image} alt="" className="w-[34px] h-[33px]" />
-            <h3 className="font-semibold text-[18px] leading-[150%] rotate-[0.72deg]">{card.title}</h3>
-            <p className="font-normal text-[16px] leading-[150%] rotate-[0.72deg]">{card.text}</p>
+            <img src={card.image} alt="" className="w-[34px] h-[33px] mx-auto md:mx-0" />
+            <h3 className="font-semibold text-[16px] md:text-[18px] leading-[150%] md:rotate-[0.72deg]">{card.title}</h3>
+            <p className="font-normal text-[14px] md:text-[16px] leading-[150%] md:rotate-[0.72deg]">{card.text}</p>
           </div>
         ))}
       </div>

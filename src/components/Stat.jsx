@@ -2,7 +2,7 @@ import icon from '../assets/statico.svg'
 
 const Stats = () => {
   return (
-    <div className="w-full bg-white py-24 px-6 md:px-20 text-center">
+    <div className="w-full hidden md:block bg-white py-12 md:py-24 px-6 md:px-20 text-center">
       <div className="flex justify-center mb-6 font-raleway">
         <div className="w-12 h-12 bg-[#E6FAF9] rounded-full flex items-center justify-center">
           <img src={icon} alt="icon" className="w-[32px] h-[32px] md:w-[56px] md:h-[56px]" />

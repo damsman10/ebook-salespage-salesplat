@@ -9,6 +9,7 @@ import WhyExplosive from '../components/WhyExplosive'
 import BumperOffer from '../components/BumperOffer'
 import Footer from '../components/Footer'
 import Blur from '../components/Blur'
+import EbookMobile from '../components/EbookMobile'
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Order />
         <Gettings />
         <Stat />
+        <EbookMobile />
         <Solution />
         <Explosive />
         <Blur />

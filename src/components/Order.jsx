@@ -17,8 +17,8 @@ const Order = () => {
   ]
 
   return (
-    <div className="w-full py-[96px] px-6 md:px-[80px] bg-white text-center">
-      <h2 className="text-[24px] md:text-[36px] font-raleway font-bold leading-[125%] max-w-[988px] mx-auto text-[#001422] mb-16">
+    <div className="w-full mt-4 md:mt-0 py-10 bg-[#C0FEFF] md:py-[96px] px-6 md:px-[80px] md:bg-white text-center">
+      <h2 className="text-[20px] md:text-[36px] font-raleway font-bold leading-[125%] max-w-[988px] mx-auto text-[#001422] mb-16">
         Order “Explosive marketing for SMEs” (eBook) for N7,500 or $7.5 today and enjoy all these Bonuses.
       </h2>
 
@@ -26,19 +26,19 @@ const Order = () => {
         {cards.map((card, index) => (
           <div
             key={index}
-            className="flex-1 max-w-full md:max-w-[390px] bg-[#04585D] px-6 py-8 flex flex-col gap-6 text-white rounded-lg"
+            className="flex-1 max-w-full md:max-w-[390px] bg-white border border-black md:border-0 md:bg-[#04585D] px-6 py-3 md:py-8 flex flex-col gap-6 text-[#006C72] md:text-white rounded-[20px] md:rounded-lg"
           >
             <h3 className="text-[20px] md:text-[24px] font-raleway font-bold text-center">
               {card.title}
             </h3>
-            <p className="text-[16px] font-raleway font-medium leading-[150%] text-center text-[#EDFFFE]">
+            <p className="text-[16px] font-raleway font-medium leading-[150%] text-center text-black md:text-[#EDFFFE]">
               {card.text}
             </p>
           </div>
         ))}
       </div>
 
-      <div className="flex justify-center px-0 md:px-8">
+      <div className=" hidden md:flex justify-center px-0 md:px-8">
         <img
           src={image}
           alt="video"
