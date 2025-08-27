@@ -12,8 +12,8 @@ const Footer = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 mb-10">
           <div className="space-y-3">
-            <h4 className="font-medium font-raleway text-[#606E7A] leading-[20px] text-sm">Tech Tools & Solutions</h4>
-            <ul className="space-y-2 text-[16px] font-raleway font-semibold leading-[24px] text-[#474F57]">
+            <h4 className="font-medium text-center md:text-left font-raleway text-[#606E7A] leading-[20px] text-sm">Tech Tools & Solutions</h4>
+            <ul className="space-y-2 text-[16px] text-center md:text-left font-raleway font-semibold leading-[24px] text-[#474F57]">
               <li>AuxHr</li>
               <li>Supportpro</li>
               <li>Incubate</li>
@@ -22,8 +22,8 @@ const Footer = () => {
           </div>
 
           <div className="space-y-3">
-            <h4 className="font-medium font-raleway text-[#606E7A] leading-[20px] text-sm">For you</h4>
-            <ul className="space-y-2 text-[16px] font-raleway font-semibold leading-[24px] text-[#474F57]">
+            <h4 className="font-medium font-raleway text-center md:text-left text-[#606E7A] leading-[20px] text-sm">For you</h4>
+            <ul className="space-y-2 text-[16px] text-center md:text-left font-raleway font-semibold leading-[24px] text-[#474F57]">
               <li>Become an Instructor</li>
               <li>Start Recruiting</li>
               <li>Become a Coach</li>
@@ -33,8 +33,8 @@ const Footer = () => {
           </div>
 
           <div className="space-y-3">
-            <h4 className="font-medium font-raleway text-[#606E7A] leading-[20px] text-sm">Company</h4>
-            <ul className="space-y-2 text-[16px] font-raleway font-semibold leading-[24px] text-[#474F57]">
+            <h4 className="font-medium text-center md:text-left font-raleway text-[#606E7A] leading-[20px] text-sm">Company</h4>
+            <ul className="space-y-2 text-[16px] text-center md:text-left font-raleway font-semibold leading-[24px] text-[#474F57]">
               <li>About Us</li>
               <li>Careers</li>
               <li>Press & Media</li>
@@ -43,8 +43,8 @@ const Footer = () => {
           </div>
 
           <div className="space-y-3">
-            <h4 className="font-medium font-raleway text-[#606E7A] leading-[20px] text-sm">Resources</h4>
-            <ul className="space-y-2 text-[16px] font-raleway font-semibold leading-[24px] text-[#474F57]">
+            <h4 className="font-medium text-center md:text-left font-raleway text-[#606E7A] leading-[20px] text-sm">Resources</h4>
+            <ul className="space-y-2 text-[16px] text-center md:text-left font-raleway font-semibold leading-[24px] text-[#474F57]">
               <li>Blog</li>
               <li>Videos</li>
               <li>Podcasts</li>
@@ -53,8 +53,8 @@ const Footer = () => {
           </div>
 
           <div className="space-y-3">
-            <h4 className="font-medium font-raleway text-[#606E7A] leading-[20px] text-sm">Legal</h4>
-            <ul className="space-y-2 text-[16px] font-raleway font-semibold leading-[24px] text-[#474F57]">
+            <h4 className="font-medium text-center md:text-left font-raleway text-[#606E7A] leading-[20px] text-sm">Legal</h4>
+            <ul className="space-y-2 text-[16px] text-center md:text-left font-raleway font-semibold leading-[24px] text-[#474F57]">
               <li>Terms</li>
               <li>Privacy</li>
               <li>Cookies</li>
@@ -70,15 +70,15 @@ const Footer = () => {
               We'll send you a nice letter once per week. No spam.
             </p>
           </div>
-          <form className="flex w-full md:w-auto gap-4">
+          <form className="flex flex-col md:flex-row w-full md:w-auto gap-4">
             <input
               type="email"
               placeholder="Enter your email"
-              className="rounded-l-md border-[1.6px] border-[#101828] px-5 py-3 flex-grow md:flex-grow-0 focus:outline-none focus:ring-2 focus:ring-teal-400"
+              className="md:rounded-l-md border-[1.6px] border-[#101828] px-5 py-3 flex-grow md:flex-grow-0 focus:outline-none focus:ring-2 focus:ring-teal-400"
             />
             <button
               type="submit"
-              className="bg-[#101828] py-3 px-6 text-white font-semibold font-raleway text-[16px] leading-[100%] rounded-r-md"
+              className="bg-[#101828] py-3 px-6 text-white font-semibold font-raleway text-[16px] leading-[100%] md:rounded-r-md"
             >
               Subscribe
             </button>

@@ -5,7 +5,9 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Home />
+      <div className='overflow-hidden'>
+        <Home />
+      </div>
     </div>
   )
 }
