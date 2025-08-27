@@ -4,7 +4,7 @@ import analyico from '../assets/analyico.svg'
 
 const Explosive = () => {
   return (
-    <div className="bg-white py-16 px-6 md:px-20">
+    <div className="hidden md:block bg-white py-8 md:py-16 px-6 md:px-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-12">
         
         <div className="flex-1 min-w-0 flex flex-col gap-5">

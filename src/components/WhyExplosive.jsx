@@ -42,7 +42,7 @@ const WhyExplosive = () => {
   ];
 
   return (
-    <div className="bg-[#F5F5F5] pt-24 pb-16 w-full">
+    <div className="hidden mdbg-[#F5F5F5] pt-24 pb-16 w-full">
       <div className="flex flex-col md:flex-row gap-8 max-w-7xl mx-auto">
 
         <div className="left flex-1 bg-white rounded-3xl p-12 border-[1px] border-[#E5E5E5] shadow-sm">

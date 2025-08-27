@@ -3,7 +3,7 @@ import ebook from '../assets/ebook.png'
 
 const Blur = () => {
   return (
-    <div className="relative h-screen max-h-[640px] w-full overflow-hidden">
+    <div className="hidden md:block relative h-screen max-h-[640px] w-full overflow-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center filter blur-md scale-110"
         style={{ backgroundImage: `url(${blur})` }}

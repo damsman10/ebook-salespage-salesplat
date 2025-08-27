@@ -10,6 +10,8 @@ import BumperOffer from '../components/BumperOffer'
 import Footer from '../components/Footer'
 import Blur from '../components/Blur'
 import EbookMobile from '../components/EbookMobile'
+import ExplosiveMobile from '../components/ExplosiveMobile'
+import WhyExplosiveMobile from '../components/WhyExplosiveMobile'
 
 const Home = () => {
   return (
@@ -21,8 +23,10 @@ const Home = () => {
         <EbookMobile />
         <Solution />
         <Explosive />
+        <ExplosiveMobile />
         <Blur />
         <WhyExplosive />
+        <WhyExplosiveMobile />
         <BumperOffer />
         <Footer />
     </div>

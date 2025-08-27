@@ -10,7 +10,7 @@ const Solution = () => {
         <div className="text-[#00343A] text-[20px] text-left font-raleway mb-4">
           In this book, you will
         </div>
-        <ul className="text-left text-[#00343A] font-raleway space-y-2">
+        <ul className="text-left text-[#00343A] text-[20px] font-raleway space-y-2">
           <li>Discover the Step-by-Step Blueprint to Attract More Customers</li>
           <li>Boost Sales, and</li>
           <li>Dominate Your Market; even on a Tight Budget!</li>

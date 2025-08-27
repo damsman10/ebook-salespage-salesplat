@@ -17,7 +17,7 @@ const Order = () => {
   ]
 
   return (
-    <div className="w-full mt-4 md:mt-0 py-10 bg-[#C0FEFF] md:py-[96px] px-6 md:px-[80px] md:bg-white text-center">
+    <div className="w-full mt-8 md:mt-0 py-10 bg-[#C0FEFF] md:py-[96px] px-6 md:px-[80px] md:bg-white text-center">
       <h2 className="text-[20px] md:text-[36px] font-raleway font-bold leading-[125%] max-w-[988px] mx-auto text-[#001422] mb-16">
         Order “Explosive marketing for SMEs” (eBook) for N7,500 or $7.5 today and enjoy all these Bonuses.
       </h2>
